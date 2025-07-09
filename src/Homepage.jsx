@@ -160,7 +160,7 @@ function Homepage() {
             <div className="group bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden shadow-2xl hover:shadow-cyan-500/20 transition-all duration-300 transform hover:scale-105 border border-gray-700 hover:border-cyan-500/50">
               <div className="relative h-48 sm:h-56 overflow-hidden">
                 <img
-                  src="src/assets/Imgs/yemek.jpeg"
+                  src="public/images/yemek.jpeg"
                   alt="Düğün Organizasyonları"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -191,7 +191,7 @@ function Homepage() {
             <div className="group bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden shadow-2xl hover:shadow-cyan-500/20 transition-all duration-300 transform hover:scale-105 border border-gray-700 hover:border-cyan-500/50">
               <div className="relative h-48 sm:h-56 overflow-hidden">
                 <img
-                  src="src/assets/Imgs/deniz.jpeg"
+                  src="public/images/deniz.jpeg"
                   alt="Kurumsal Etkinlikler"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -222,7 +222,7 @@ function Homepage() {
             <div className="group bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden shadow-2xl hover:shadow-cyan-500/20 transition-all duration-300 transform hover:scale-105 border border-gray-700 hover:border-cyan-500/50">
               <div className="relative h-48 sm:h-56 overflow-hidden">
                 <img
-                  src="src/assets/Imgs/happy.jpg"
+                  src="public/images/happy.jpg"
                   alt="Özel Kutlamalar"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -253,7 +253,7 @@ function Homepage() {
             <div className="group bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden shadow-2xl hover:shadow-cyan-500/20 transition-all duration-300 transform hover:scale-105 border border-gray-700 hover:border-cyan-500/50">
               <div className="relative h-48 sm:h-56 overflow-hidden">
                 <img
-                  src="src/assets/Imgs/ada.jpg"
+                  src="public/images/ada.jpg"
                   alt="Ada Turları"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -284,7 +284,7 @@ function Homepage() {
             <div className="group bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden shadow-2xl hover:shadow-cyan-500/20 transition-all duration-300 transform hover:scale-105 border border-gray-700 hover:border-cyan-500/50">
               <div className="relative h-48 sm:h-56 overflow-hidden">
                 <img
-                  src="src/assets/Imgs/yemek.jpeg"
+                  src="public/images/yemek.jpeg"
                   alt="Gourmet Yemek"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -315,7 +315,7 @@ function Homepage() {
             <div className="group bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden shadow-2xl hover:shadow-cyan-500/20 transition-all duration-300 transform hover:scale-105 border border-gray-700 hover:border-cyan-500/50">
               <div className="relative h-48 sm:h-56 overflow-hidden">
                 <img
-                  src="src/assets/Imgs/deniz.jpeg"
+                  src="public/images/deniz.jpeg"
                   alt="Günlük Turlar"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />

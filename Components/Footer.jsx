@@ -18,7 +18,7 @@ function Footer() {
             <div className="flex items-center space-x-3">
               <img
                 className="h-12 w-auto object-contain"
-                src="src/assets/Imgs/Spedyat.png"
+                src="public/images/Spedyat.png"
                 alt="Speed Yat Logo"
               />
               <div>

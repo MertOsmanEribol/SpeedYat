@@ -40,7 +40,7 @@ function HeaderMenu() {
         <div className="flex items-center lg:mb-0">
           <img
             className="logo h-14 md:h-16 lg:h-20 w-auto object-contain transition-transform duration-300 hover:scale-105"
-            src="src/assets/Imgs/Spedyat.png"
+            src="public/images/Spedyat.png"
             alt="Speed Yat Logo"
           />
           <div className="hidden md:block text-left ml-3">
@@ -155,7 +155,7 @@ function HeaderMenu() {
               <div className="relative group rounded-2xl">
                 <img
                   className="cursor-pointer w-full rounded-2xl shadow-2xl transition-transform duration-700 ease-in-out transform group-hover:scale-105 group-hover:-translate-y-2"
-                  src="src/assets/Imgs/Speed2.png"
+                  src="public/images/Speed2.png"
                   alt="Speed Yat"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl" />
@@ -238,7 +238,7 @@ function HeaderMenu() {
             <div className="relative group rounded-2xl">
               <img
                 className="cursor-pointer w-full rounded-2xl shadow-2xl transition-transform duration-700 ease-in-out transform group-hover:scale-105 group-hover:-translate-y-2"
-                src="src/assets/Imgs/Speed2.png"
+                src="public/images/Speed2.png"
                 alt="Speed Yat"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl" />
