@@ -166,7 +166,7 @@ function Footer() {
      
       <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-cyan-900/5 to-transparent pointer-events-none"></div>
     </footer>
-
+{/* git deneme  */}
 
 
     </div>
