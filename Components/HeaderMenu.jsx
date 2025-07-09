@@ -155,7 +155,7 @@ function HeaderMenu() {
               <div className="relative group rounded-2xl">
                 <img
                   className="cursor-pointer w-full rounded-2xl shadow-2xl transition-transform duration-700 ease-in-out transform group-hover:scale-105 group-hover:-translate-y-2"
-                  src="/images/Speed2.png"
+                  src="/images/speed2.png"
                   alt="Speed Yat"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl" />
@@ -238,7 +238,7 @@ function HeaderMenu() {
             <div className="relative group rounded-2xl">
               <img
                 className="cursor-pointer w-full rounded-2xl shadow-2xl transition-transform duration-700 ease-in-out transform group-hover:scale-105 group-hover:-translate-y-2"
-                src="/images/Speed2.png"
+                src="/images/speed2.png"
                 alt="Speed Yat"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl" />
