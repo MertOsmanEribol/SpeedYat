@@ -53,7 +53,7 @@ function HeaderMenu() {
           </div>
         </div>
 
-        {/* Navigation Menu */}
+        {/* Navbar menü */}
         <nav className="flex flex-wrap justify-center items-center text-gray-300 gap-4 md:gap-6 lg:gap-8 text-base md:text-lg lg:text-xl mb-4 lg:mb-0">
           <a
             className="relative group hover:text-cyan-400 transition-all duration-300 font-medium whitespace-nowrap"
@@ -87,7 +87,7 @@ function HeaderMenu() {
           </a>
         </nav>
 
-        {/* Contact ve Reservation */}
+        {/* iletişim ve wp */}
         <div className="hidden lg:flex items-center space-x-4 z-10">
           <div className="text-right text-sm">
             <p className="text-white font-semibold">📞 +90 (212) 555-0123</p>
@@ -106,7 +106,7 @@ function HeaderMenu() {
           </a>
         </div>
 
-        {/* Mobil için Contact ve Reservation */}
+        {/* Mobil için iletişim ve wp */}
         <div className="flex lg:hidden items-center space-x-4 mt-2">
           <div className="text-center text-xs md:text-sm">
             <p className="text-white font-semibold">📞 +90 (212) 555-0123</p>
@@ -126,7 +126,7 @@ function HeaderMenu() {
         </div>
       </div>
 
-      {/* Overlay - Arkaplan kararması */}
+      {/* arka plan karartması ve üst üste koyma mobilde */}
       {YatMenuOpen && (
         <div
           className="fixed inset-0 bg-black/60 backdrop-blur-sm z-40 transition-opacity duration-300"

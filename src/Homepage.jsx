@@ -7,9 +7,9 @@ function Homepage() {
     <div className="min-h-screen bg-black">
       <HeaderMenu />
       
-      {/* Hero Section with Background Video */}
+      
       <div className="relative h-screen overflow-hidden">
-        {/* Background Video */}
+        {/* Arka plan video kısmı  */}
         <div className="absolute inset-0 w-full h-full">
           <iframe
             className="w-full h-full object-cover"
@@ -20,14 +20,13 @@ function Homepage() {
           ></iframe>
         </div>
 
-        {/* Overlay */}
+        {/* Üst üste koyduğum yapı */}
         <div className="absolute inset-0 bg-black/40 bg-gradient-to-b from-black/30 via-transparent to-black/50"></div>
 
-        {/* Hero Content */}
         <div className="relative z-10 flex items-center justify-center h-full">
           <div className="text-center text-white px-4 sm:px-6 max-w-4xl mx-auto">
             
-            {/* Main Heading */}
+            {/* Video üstü başlık*/}
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
               <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-clip-text text-transparent">
                 Speed
@@ -38,13 +37,13 @@ function Homepage() {
               </span>
             </h1>
 
-            {/* Subtitle */}
+           
             <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-gray-200 font-light leading-relaxed drop-shadow-lg px-2">
               Lüks yatlarımızla unutulmaz anılar yaşayın. <br className="hidden sm:block" />
               Premium hizmet, mükemmel konfor, sonsuz mavi.
             </p>
 
-            {/* Features */}
+           
             <div className="flex flex-wrap justify-center gap-3 sm:gap-6 mb-8 sm:mb-10 text-sm md:text-base px-2">
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-3 sm:px-4 py-2 rounded-full">
                 <span className="text-cyan-400">⚓</span>
@@ -60,7 +59,7 @@ function Homepage() {
               </div>
             </div>
 
-            {/* CTA Buttons */}
+        
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4">
               <button className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-base sm:text-lg rounded-2xl hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/30 w-full sm:w-auto sm:min-w-[200px]">
                 <span className="relative z-10 flex items-center justify-center space-x-2">
@@ -78,7 +77,7 @@ function Homepage() {
               </button>
             </div>
 
-            {/* Contact Info */}
+            {/* İletişim bilgi */}
             <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-sm sm:text-base text-gray-300">
               <div className="flex items-center space-x-2">
                 <span className="text-cyan-400">📞</span>
@@ -103,7 +102,7 @@ function Homepage() {
           </div>
         </div>
 
-        {/* Floating Elements - Hidden on mobile */}
+        {/* Dalga dalga yükselen simgeler */}
         <div className="absolute top-1/4 left-10 animate-float opacity-30 hidden lg:block">
           <div className="text-6xl">⚓</div>
         </div>
@@ -142,7 +141,7 @@ function Homepage() {
       {/* VIP Hizmetler Bölümü */}
       <div className="bg-black py-12 sm:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Başlık */}
+         
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
               Sunduğumuz 
@@ -348,34 +347,7 @@ function Homepage() {
 
       <Footer />
 
-      <style jsx>{`
-        @keyframes float {
-          0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(-20px); }
-        }
-        
-        @keyframes float-delayed {
-          0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(-15px); }
-        }
-        
-        @keyframes scroll {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(-50%); }
-        }
-        
-        .animate-float {
-          animation: float 6s ease-in-out infinite;
-        }
-        
-        .animate-float-delayed {
-          animation: float-delayed 8s ease-in-out infinite;
-        }
-        
-        .animate-scroll {
-          animation: scroll 30s linear infinite;
-        }
-      `}</style>
+    
     </div>
   );
 }

@@ -6,14 +6,14 @@ function Footer() {
     
     <div>
       <footer className="relative bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white">
-      {/* Decorative wave */}
+     
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400"></div>
       
       {/* Main Footer Content */}
       <div className="container mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           
-          {/* Company Info */}
+          {/* Şirket bilgisi logo vs.. */}
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
               <img
@@ -56,7 +56,7 @@ function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
+          {/* Hızlı linkler ( kendime not: icap ederse kaldırabilirim gereksiz geldi anlık) */}
           <div className="space-y-6">
             <h4 className="text-xl font-bold text-white border-b-2 border-cyan-400 pb-2 inline-block">
               Hızlı Linkler
@@ -77,7 +77,7 @@ function Footer() {
             </nav>
           </div>
 
-          {/* Services */}
+          {/* Footer Hizmetler */}
           <div className="space-y-6">
             <h4 className="text-xl font-bold text-white border-b-2 border-cyan-400 pb-2 inline-block">
               Hizmetlerimiz
@@ -108,7 +108,7 @@ function Footer() {
             </div>
           </div>
 
-          {/* Contact Info */}
+          {/* İletişim footer */}
           <div className="space-y-6">
             <h4 className="text-xl font-bold text-white border-b-2 border-cyan-400 pb-2 inline-block">
               İletişim
@@ -148,7 +148,7 @@ function Footer() {
        
       </div>
 
-      {/* Bottom Bar */}
+      {/* en alt tarih kısmı */}
       <div className="bg-gray-900/80 border-t border-gray-700">
         <div className="container mx-auto px-6 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
@@ -163,7 +163,7 @@ function Footer() {
         </div>
       </div>
 
-      {/* Decorative Elements */}
+     
       <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-cyan-900/5 to-transparent pointer-events-none"></div>
     </footer>
 
